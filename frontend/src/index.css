@@ -1,0 +1,37 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: #eeeeee;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul.menu-list li{
+ list-style: none;
+ display: inline;
+ 
+}
+
+ul.menu-list li>a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.10rem;
+  margin:10px;
+  background:#00a5ad;
+  padding:10px;
+  border-radius:4px;
+}
+
+ul.menu-list li>a:hover {
+  color:#000000;
+}
+
+* {
+  box-sizing: border-box;
+}
